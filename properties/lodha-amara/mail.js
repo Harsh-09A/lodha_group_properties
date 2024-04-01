@@ -1,8 +1,7 @@
 (function () {
-    emailjs.init("BnRoAjGd5ec2E2VQn");
+    emailjs.init("to9PlFrMMimgruuH0");
+    // emailjs.init("BnRoAjGd5ec2E2VQn");
 })();
-
-
 
 // Get IP Address
 async function getIpAddress() {
@@ -18,24 +17,17 @@ async function getIpAddress() {
 }
 
 // Form Submit
-const handleFormSubmit = async (
-    formId,
-    nameField,
-    emailField,
-    phoneField,
-
-) => {
+const handleFormSubmit = async (formId, nameField, emailField, phoneField) => {
     const templateParams = {
         user_name: document.getElementById(nameField).value,
         user_email: document.getElementById(emailField).value,
         contact_number: document.getElementById(phoneField).value,
         ip_address: await getIpAddress(),
-
-        to_email: "harsh.autowebbed@gmail.com",
-        company_name: "DIGIN",
+        to_email: " ads.ambrose@gmail.com",
+        company_name: "RUSTOMJEE CROWN",
     };
 
-    //
+    // Send Form
 
     emailjs.send("contact_service", "contact_form", templateParams).then(
         function (response) {
@@ -53,6 +45,8 @@ const handleFormSubmit = async (
     );
 };
 
+
+
 window.onload = function () {
     document
         .getElementById("contact-form")
@@ -63,7 +57,7 @@ window.onload = function () {
                 "user_name",
                 "user_email",
                 "contact_number",
-              
+                "privacy_check"
             );
         });
 
@@ -76,7 +70,7 @@ window.onload = function () {
                 "user_name_modal",
                 "user_email_modal",
                 "contact_number_modal",
-               
+                "privacy_check_modal"
             );
         });
 };
