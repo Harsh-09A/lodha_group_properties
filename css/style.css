@@ -266,8 +266,13 @@ html {
   z-index: 1;
 }
 
+.property_container .box .bottom a {
+  text-decoration: none;
+  color: var(--colorBlack);
+}
+
 .property_container .box .bottom h3 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
