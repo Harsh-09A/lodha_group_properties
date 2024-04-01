@@ -118,7 +118,8 @@ html {
 }
 
 .carousel-item img {
-  max-height: 80vh;
+  /* min-height: 85vh; */
+  max-height: 85vh;
   width: 100% !important;
 }
 
@@ -128,13 +129,23 @@ html {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/desktop_banner1.jpg");
+    content: url("../img/banners/lodha_crown.webp");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/desktop_banner1.jpg");
+    content: url("../img/banners/lodha-casa-premier-banner.webp");
   }
   .carousel-item .banner3 {
-    content: url("../img/banners/desktop_banner1.jpg");
+    content: url("../img/banners/lodha_amara_banner.webp");
+  }
+  .carousel-item .banner4 {
+    content: url("../img/banners/signet2.jpeg");
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item img {
+    min-height: 400px;
+    width: 100% !important;
   }
 }
 
