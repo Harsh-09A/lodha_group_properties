@@ -129,23 +129,16 @@ html {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/lodha_crown.webp");
+    content: url("../img/banners/crown_mobile_banner.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/lodha-casa-premier-banner.webp");
+    content: url("../img/banners/casa_mobile_banner.jpg");
   }
   .carousel-item .banner3 {
-    content: url("../img/banners/lodha_amara_banner.webp");
+    content: url("../img/banners/amara_mobile_banner.jpg");
   }
   .carousel-item .banner4 {
-    content: url("../img/banners/signet2.jpeg");
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .carousel-item img {
-    min-height: 400px;
-    width: 100% !important;
+    content: url("../img/banners/signet_mobile_banner.jpg");
   }
 }
 
