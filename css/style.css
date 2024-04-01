@@ -142,6 +142,19 @@ html {
   }
 }
 
+.carousel-caption h1 {
+  font-size: 3em !important;
+}
+
+.banner-btn{
+  background-color: var(--colorPrimary);
+  color: var(--colorWhite);
+}
+.banner-btn:hover{
+  background-color: var(--colorSecondary);
+  color: var(--colorWhite);
+}
+
 /* Residential Property Card */
 #properties_section {
   background-color: #eee;
