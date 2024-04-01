@@ -237,7 +237,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .navbar-brand img {
-    height: 35px;
+    height: 50px;
   }
 }
 
