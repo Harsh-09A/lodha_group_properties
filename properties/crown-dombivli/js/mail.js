@@ -23,7 +23,7 @@ const handleFormSubmit = async (formId, nameField, emailField, phoneField) => {
       user_email: document.getElementById(emailField).value,
       contact_number: document.getElementById(phoneField).value,
       ip_address: await getIpAddress(),
-      to_email: " harsh.autowebbed@gamil.com",
+      to_email: " harsh.autowebbed@gmail.com",
       company_name: " Lodha Crown Dombivli",
   };
 
